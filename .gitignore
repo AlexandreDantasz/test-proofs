@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models: never commit real work data or large files
+data/raw/
+data/private/
+*.csv
+*.parquet
+*.pt
+*.bin
+*.safetensors
+
+# Secrets
+.env
+*.key
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
